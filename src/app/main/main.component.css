@@ -1,0 +1,366 @@
+/* Media Sizes */
+@media (max-height: 768px){
+  #About > p{
+    font-size:  15px !important;
+    
+  }
+  #About{
+    width: 200vw;
+    height: 80vh;
+  }
+  
+  #School-image{
+    height: 30vh !important;
+    width: auto;
+  }
+  #educationlist > li{
+    font-size: 100% !important;
+  }
+
+ .mainSkillsBody > main > ol > li > i{
+  visibility: hidden;
+ }
+
+
+}
+@media (max-width: 992px){
+    #homeSection > .col-lg-4{
+      visibility: hidden;
+    }
+    #homeSection > .col-lg-4#homebody{
+      visibility: visible;
+    }
+    #homebody{
+      bottom: 23vh;
+    }
+
+    #education{
+      
+      flex-direction: column;
+      height: 20vh;
+      width: 40vw;
+    }
+    #NJITCard,#WWPHSNCard{
+      top: 30vh;
+      width: 20vw;
+    }
+    #School-image{
+      padding-bottom: 0vh !important;
+    }
+  
+    .row h3,h4{
+      font-size: 1px;;
+    }
+    .row p{
+      font-size: 10px;
+    }
+    
+  }
+  
+  @media (max-width: 1300px){
+    main > ol > li > i{
+      visibility: hidden;
+    }
+  }
+  
+  @media (max-height: 1600px){
+    #About > p{
+      font-size: 2.5vh!important;
+
+    }
+  }
+
+
+
+  @media (max-width: 1700px){
+    #aboutlist {
+      align-items: center;
+      flex-direction: column;
+    }
+     #aboutBody > #aboutlist{
+      margin-top: 0vh;
+    }
+    #aboutlist > #About{
+      width:200%;
+    }
+  
+    .row h3,h4{
+      font-size: 25px;;
+    }
+    .row p{
+      font-size: 15px;
+    }
+    
+  }
+  
+  /* General */
+  button{
+    text-decoration: none;
+    outline: none;
+  }
+  
+  #aboutSection,#experienceSection,#projectsSection,#educationSection,#skillsSection,#iframeSection{
+      height: 100vh;
+  }
+  
+  #aboutSection,#experienceSection,#projectsSection{
+      background-color: rgb(82, 168, 197);
+  }
+    
+  #educationSection,#skillsSection,#iframeSection{
+      background-color: rgb(106, 194, 223);
+  }
+    
+  #aboutBody,#educationBody,#experienceBody,#skillsBody,#projectsBody,#iframeBody{
+      padding-top: 80px;
+      background-color: rgb(255, 251, 251);
+      text-align: center;
+      height: 100%;    
+  }
+  
+  /* Navbar Section */
+  .navbar {
+      transition: ease-in-out 1s;
+  } 
+  
+  nav-item{
+      font-family: 'Odibee Sans';
+      font-size: 35px;
+  }
+  
+  .navbar-nav a{
+      color: black;
+      font-family: 'Rubik';
+      font-size: large;
+  }
+  
+  .navbar-nav a:hover{
+      color:rgb(21, 112, 248);
+  }
+  
+  a{
+      color:black;
+      text-decoration: none;
+      text-decoration-color: none;
+      outline: none;
+  }
+    
+   #logo{
+      height: auto;
+      width: 50%;
+      /* border-style: dotted; */
+  }  
+  .navbar-nav{
+      padding-right:170px;
+  }
+    
+  /* Home Section */
+  #homeSection{
+      /* background-image: url('/assets/images/49375.jpg'); */
+      background-image: url('./../../assets/images/mountains.jpg');
+      background-size: 100vw 100vh; 
+      background-repeat: no-repeat;
+      height:100vh;
+  }
+  #homebody h1{
+      font-size: 3vw;
+      font-family: 'Rubik';
+  }
+  #homebody h5{
+    font-size: 1vw;
+    font-family: 'Rubik';
+  } 
+  #homebody{
+    padding-top: 16vh;
+    /* border: dotted; */
+    
+  }
+  
+  /* About Section */
+  #AboutImage, #About{
+    margin-top: 1vh;
+  }
+  #myPhoto{
+    width: 600px;
+    border-radius: 25px;
+  }
+  #aboutlist{
+    margin-top: 15vh;
+  }
+  #About p{
+    font-size:150%;
+    /* font-size: 21px; */
+  }
+  
+  /* Education Section */
+  #educationBody mat-card{
+      width:25vw;
+      height:75vh;
+  }
+  
+   #education{
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+  }
+  
+  #School-image{
+    text-align: center;
+    width:15vw;;
+    height: auto;
+    display:block;
+    margin:auto;
+    padding-bottom: 15vh;
+  }
+  
+  
+  #NJITCard{
+    border-style: inset;
+    border-width: 4px;
+    border-color: red;
+  }
+  
+  #WWPHSNCard{
+    border-style: inset;
+    border-width: 4px;
+    border-color: blue;
+  }
+  
+  #educationlist {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  #educationlist li{
+    margin-top: 25px;
+    font-size: 2vh;
+    display: column;
+    list-style: none;
+    font-family: "Rubik";
+  }  
+    
+  /* Experience Section */
+  .row h3,h4{
+    font-size: 1.65vw;
+    font-family: 'Work Sans';
+  }
+  
+  .row p{
+    font-size: 1vw;
+    font-family: 'Titillium Web';
+  }
+  #experienceBody .fa-angle-right{
+    font-size: 2.5vw;
+  }
+  
+  #experienceBody hr{
+    background-color: black;
+  }
+  
+  /* Skills Section */
+  #skillFont i{
+    font-size: 45px;
+  }
+  .progress{
+    height:10px;
+  }
+  #skillBody h3{
+    font-family: 'Odibee Sans';
+  }
+  
+  .mainSkillsBody{
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    color: #1d1f20;;
+  }
+  
+  /* Spacing between the blocks? */
+  /* main{
+    display: block;
+    margin: 0 auto;
+    max-width: 40rem;
+    padding: 1rem;
+  } */
+  
+  /* Hides the default li numbers*/
+  ol.gradient-list {
+    counter-reset: gradient-counter;
+    list-style: none;
+    margin: 1.75rem 0;
+    padding-left: 1rem;
+  }
+  
+  /* White Bars */
+  ol.gradient-list > li{
+    counter-increment: gradient-counter;
+    background: white;
+    border-radius: 0 0.5rem 0.5rem 0.5rem;
+    box-shadow: 0.25rem 0.25rem 0.6rem rgba(0,0,0,0.05), 0 0.5rem 1.125rem rgba(75,0,0,0.05);
+    box-sizing: border-box;
+    margin-top: 2rem;
+    min-height: 3rem;
+    padding: 1rem 1rem 1rem 3rem;
+    position: relative;
+    font-size: 20px;
+  }
+  
+  /* Spacing between Bars and #s */
+  ol.gradient-list > li::before{
+    background: linear-gradient(135deg, rgb(81, 133, 247) 0%,rgb(229, 235, 229) 100%);
+    border-radius: 1rem 1rem 0 1rem;
+    content: '';
+    height: 3rem;
+    left: -1rem;
+    overflow: hidden;
+    position: absolute;
+    top: -1rem;
+    width: 3rem;
+  }
+  
+  /* Numbered Colored Squares */
+  ol.gradient-list > li::before{
+    align-items: flex-end;
+    box-shadow: 0.25rem 0.25rem 0.6rem rgba(0,0,0,0.05), 0 0.5rem 1.125rem rgba(75,0,0,0.05);
+    box-sizing: border-box;
+    content: counter(gradient-counter);
+    color: black;
+    display: flex;
+    font: 900 1.5em/1 'Rubik';
+    justify-content: flex-end;
+    padding: 0.125em 0.25em;
+    z-index: 1;
+  }
+  
+  ol.gradient-list > li > i{
+  float: right;
+  }
+  
+  /* Projects Section */
+  mat-card{
+    height: 30vh;
+    width: 25vw;
+  }
+  
+  #projectsBody hr{
+    height: .5px;
+    background: linear-gradient(to right, #000000, #a1a1a1);
+  }
+  .example-header-image {
+    background-image: url('/assets/images/49366.jpg');
+    background-size: cover;
+  }
+  
+ .projectCard > mat-card-actions > a >button{
+    background-color: rgb(236, 171, 51) !important;
+  }
+  
+  .projectCard > mat-card-content{
+    height: 100px;
+  }
+  
+  .projectCard > mat-card-header:hover{
+    cursor: pointer;
+  }
+  
+  
